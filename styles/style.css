@@ -11,7 +11,9 @@ a {
     color: #828282;
 }
 
-
+li {
+    list-style-type: none;
+}
 
 body {
     margin: 0;
@@ -41,7 +43,8 @@ body {
     font-size: 18px;
 }
 
-.nav-item:active, .nav-item:hover {
+.nav-item:active,
+.nav-item:hover {
     color: black;
 }
 
@@ -51,13 +54,13 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
-    
+
 }
 
 .denis-novik {
     width: 945px;
     margin: 0 auto;
-    margin-top: 30px;  
+    margin-top: 30px;
 }
 
 .info-name {
@@ -94,11 +97,63 @@ body {
 .about-header {
     font-size: 34px;
     font-weight: bold;
-    
+
 }
 
 .about-text {
     font-size: 18px;
     font-weight: 500;
     margin-top: 40px;
+}
+
+/* SECTION 3 */
+
+.skills {
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.skills-header {
+    font-size: 34px;
+    font-weight: bold;
+}
+
+.skills-text {
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 40px;
+    margin-bottom: 90px;
+}
+
+.skills-list {
+    width: 945px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.skills-item {
+    width: 166px;
+}
+
+.skills-item>img:not(.fig-img) {
+    margin-bottom: 25px;
+
+}
+
+.skills-item>p {
+    color: #828282;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+.stars-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.fig-img {
+    margin-bottom: 44px;
 }
