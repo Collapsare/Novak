@@ -2,12 +2,16 @@
 
 * {
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
 a {
     text-decoration: none;
     color: #828282;
 }
+
+
 
 body {
     margin: 0;
@@ -40,3 +44,38 @@ body {
 .nav-item:active, .nav-item:hover {
     color: black;
 }
+
+/* SECTION 1 */
+
+.info {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    
+}
+
+.denis-novik {
+    width: 945px;
+    margin: 0 auto;
+    margin-top: 30px;  
+}
+
+.info-name {
+    font-size: 48px;
+}
+
+.info-language {
+    transform: rotate(-90deg);
+    font-size: 16px;
+    margin-right: -25px;
+}
+
+.info-about {
+    font-size: 18px;
+}
+
+.info-image {
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
