@@ -213,6 +213,8 @@ body {
     padding: 13px 30px;
     font-size: 18px;
     margin-bottom: 90px;
+    cursor: pointer;
+    
 }
 
 .icons-wrapper {
@@ -227,4 +229,14 @@ body {
     font-size: 14px;
     font-weight: 500;
     color: #828282;
+}
+
+/* BUTTON */
+
+.footer-button:hover {
+    transform: scale(1.1);
+}
+
+.footer-button {
+    transition-duration: 0.5s;
 }
