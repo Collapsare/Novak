@@ -79,3 +79,26 @@ body {
     margin-bottom: 100px;
 }
 
+/* SECTION 2 */
+
+.wrapper {
+    background-color: #F6F6F6;
+    width: 100%;
+    padding: 120px 0;
+}
+
+.about {
+    text-align: center;
+}
+
+.about-header {
+    font-size: 34px;
+    font-weight: bold;
+    
+}
+
+.about-text {
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 40px;
+}
