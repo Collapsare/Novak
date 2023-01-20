@@ -84,7 +84,7 @@ body {
 
 /* SECTION 2 */
 
-.wrapper {
+.section-wrapper {
     background-color: #F6F6F6;
     width: 100%;
     padding: 120px 0;
@@ -156,4 +156,31 @@ body {
 
 .fig-img {
     margin-bottom: 44px;
+}
+
+/* SECTION 4 */
+
+.portfolio {
+    width: 945px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.portfolio-header {
+    font-size: 34px;
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+
+.portfolio-img {
+    margin-bottom: 50px;
+}
+
+.portfolio-link {
+    margin-bottom: 100px;
+    display: block;
+    font-weight: Medium;
+    font-size: 18px;
+    text-decoration-line: underline;
+    color: black;
 }
