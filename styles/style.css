@@ -1,0 +1,42 @@
+/* OVERALLS */
+
+* {
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: #828282;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+    font-family: 'Khula', sans-serif;
+    font-weight: normal;
+}
+
+/* HEADER */
+
+.page-header {
+    width: 945px;
+    margin: 0 auto;
+    margin-top: 33px;
+}
+
+.page-nav {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 33px;
+    border-bottom: 2px solid #828282;
+}
+
+.nav-item {
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.nav-item:active, .nav-item:hover {
+    color: black;
+}
