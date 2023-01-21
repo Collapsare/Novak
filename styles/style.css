@@ -21,8 +21,6 @@ li {
 }
 
 body {
-    margin: 0;
-    padding: 0;
     background-color: #fff;
     font-family: 'Khula', sans-serif;
     font-weight: normal;
@@ -45,7 +43,7 @@ button {
 .page-header {
     width: 945px;
     margin: 0 auto;
-    margin-top: 33px;
+    padding-top: 33px;
 
 }
 
